@@ -15,8 +15,8 @@ male(pat).
 male(jacob).
 
 female(eve).
-famale(lisa). 
+female(lisa). 
 female(anne). 
-famale(carol).
+female(carol).
 
 grandparent(GP,GC) :- parent(C,GC), parent(GP,C).
